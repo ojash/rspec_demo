@@ -7,4 +7,8 @@ class User < ActiveRecord::Base
   def self.get_gender(gender)
     where gender: gender
   end
+
+  def total_photos
+    self.photos.count
+  end
 end

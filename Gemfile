@@ -44,4 +44,5 @@ gem 'shoulda-matchers', require: false
 gem 'factory_girl_rails'
 gem 'faker'
 gem 'capybara'
+gem "launchy"
 
